@@ -1,7 +1,7 @@
 class {'drupalwithmysql':
  github_url => "github.corp.ebay.com/CIO-CustomApps/s2p.git",
  git_branch_name => 'master',
- db_host_ip => '104.236.27.161',
+ db_host_ip => 'localhost',
  db_username => 'root',
  db_password => 'password',
  db_name => 'ab2',
