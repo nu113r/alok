@@ -11,7 +11,7 @@ class {'drupalwithmysql':
  git_password => "x-oauth-basic",
  memcache_module_path => "sites/all/modules",
  root_pw => "password",
- custom_code = "",
- base_url = "",
- cookie_domain = ""
+ custom_code => "",
+ base_url => "",
+ cookie_domain => ""
 }
