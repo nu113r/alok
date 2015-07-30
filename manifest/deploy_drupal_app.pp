@@ -1,5 +1,5 @@
 class {'drupalwithmysql':
- github_url => "github.corp.ebay.com/CIO-CustomApps/s2p.git",
+ github_url => "github.com/nu113r/DrupalSampleApp.git",
  git_branch_name => 'master',
  db_host_ip => 'localhost',
  db_username => 'root',
@@ -7,8 +7,8 @@ class {'drupalwithmysql':
  db_name => 'ab2',
  drupal_ip_addresses => [],
  drupal_deploy_path => '/usr/share/nginx/www',
- git_username => "e0edf112c16cc8860f20e9e13cc9223271b9e86d",
- git_password => "x-oauth-basic",
+ git_username => "nu113r",
+ git_password => "mohit123",
  memcache_module_path => "sites/all/modules",
  root_pw => "password",
  custom_code => "",
