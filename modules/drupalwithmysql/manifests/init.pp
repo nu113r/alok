@@ -58,7 +58,8 @@ class { 'mysql::server':
 }
 
 class {'deploydrupalapp':
-  github_url => "${github_url}",
+auth-basic
+ github_url => "${github_url}",
   git_branch_name => "${git_branch_name}",
   db_host_ip => "${db_host_ip}",
   db_username => "${db_username}",
